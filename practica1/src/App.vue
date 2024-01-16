@@ -1,21 +1,21 @@
 <template>
   <div id="app">
-    <div class="hello-world-section">
+    <div>
       <Navbar />
     </div>
-
 
     <div class="app-container">
       <header></header>
       <main>
-        <router-view> </router-view>
+        <div class="row mt-1">
+          <div class="col-3">
+            <router-view> </router-view>
+          </div>
+          <sidebar />
+        </div>
       </main>
-      <div class="messages">
-        <sidebar />
-      </div>
+      <div></div>
     </div>
-
-    
   </div>
 </template>
 
@@ -24,12 +24,4 @@ import Navbar from "./components/HelloWorld.vue";
 import sidebar from "./components/TheWelcome.vue";
 </script>
 
-<style scoped>
-.hello-world-section {
-  margin-bottom: 20px;
-}
-
-.messages {
-  margin-top: 60px;
-}
-</style>
+<style scoped></style>

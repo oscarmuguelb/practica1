@@ -8,7 +8,7 @@ const routes =[
     //la ruta base 
     {
         path:'/',
-        redirect: '/foster'
+        redirect: '/fosterApp'
     },
     {
         path:"/",

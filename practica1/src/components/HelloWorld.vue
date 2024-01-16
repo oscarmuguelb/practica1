@@ -1,6 +1,6 @@
 <template>
   <div>
-    <b-navbar type="dark" variant="dark" class="my-navbar">
+    <b-navbar type="dark" variant="dark">
       <b-navbar-nav>
         <b-nav-item href="#">Home</b-nav-item>
 
@@ -21,9 +21,4 @@
 </template>
 
 <style scoped>
-.my-navbar {
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
 </style>
