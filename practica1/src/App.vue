@@ -7,7 +7,9 @@
 
     <div class="app-container">
       <header></header>
-      <main></main>
+      <main>
+        <router-view> </router-view>
+      </main>
       <div class="messages">
         <sidebar />
       </div>
