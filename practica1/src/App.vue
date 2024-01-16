@@ -3,6 +3,8 @@
     <div class="hello-world-section">
       <Navbar />
     </div>
+
+
     <div class="app-container">
       <header></header>
       <main></main>
@@ -10,6 +12,8 @@
         <sidebar />
       </div>
     </div>
+
+    
   </div>
 </template>
 
