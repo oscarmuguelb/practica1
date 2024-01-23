@@ -11,7 +11,9 @@
           <div class="col-3">
             <router-view> </router-view>
           </div>
-          <sidebar />
+          <!-- <sidebar /> -->
+
+          
         </div>
       </main>
       <div></div>
